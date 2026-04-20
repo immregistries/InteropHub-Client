@@ -1,0 +1,7 @@
+org\immregistries\interophub\client\InteropHubClient.class
+org\immregistries\interophub\client\HubUserInfo.class
+org\immregistries\interophub\client\HubRedirectDecision.class
+org\immregistries\interophub\client\HubExchangeResult.class
+org\immregistries\interophub\client\HubClientConfig.class
+org\immregistries\interophub\client\HttpInteropHubClient.class
+org\immregistries\interophub\client\InteropHubClientFactory.class

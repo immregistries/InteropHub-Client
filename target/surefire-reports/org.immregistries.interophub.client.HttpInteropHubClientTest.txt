@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.immregistries.interophub.client.HttpInteropHubClientTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s -- in org.immregistries.interophub.client.HttpInteropHubClientTest
