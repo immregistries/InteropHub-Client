@@ -5,16 +5,20 @@ public class HubUserInfo {
     private final String hubUserId;
     private final String email;
     private final String name;
+    private final String firstName;
+    private final String lastName;
     private final String organization;
     private final String title;
     private final String issuedAt;
     private final String expiresInSeconds;
 
-    public HubUserInfo(String hubUserId, String email, String name, String organization,
-            String title, String issuedAt, String expiresInSeconds) {
+    public HubUserInfo(String hubUserId, String email, String name, String firstName, String lastName,
+            String organization, String title, String issuedAt, String expiresInSeconds) {
         this.hubUserId = trimOrEmpty(hubUserId);
         this.email = trimOrEmpty(email);
         this.name = trimOrEmpty(name);
+        this.firstName = trimOrEmpty(firstName);
+        this.lastName = trimOrEmpty(lastName);
         this.organization = trimOrEmpty(organization);
         this.title = trimOrEmpty(title);
         this.issuedAt = trimOrEmpty(issuedAt);
@@ -31,6 +35,14 @@ public class HubUserInfo {
 
     public String getName() {
         return name;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     public String getOrganization() {

@@ -17,7 +17,7 @@ public class HubExchangeResult {
         this.responseBody = trimOrEmpty(responseBody);
         this.errorMessage = trimOrEmpty(errorMessage);
         this.userInfo = userInfo == null
-                ? new HubUserInfo("", "", "", "", "", "", "")
+                ? new HubUserInfo("", "", "", "", "", "", "", "", "")
                 : userInfo;
         this.requestedUrlFromHub = trimOrEmpty(requestedUrlFromHub);
         this.returnToFromHub = trimOrEmpty(returnToFromHub);

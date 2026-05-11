@@ -85,6 +85,8 @@ public class HttpInteropHubClient implements InteropHubClient {
                     extractJsonNumber(responseBody, "hub_user_id"),
                     extractJsonString(responseBody, "email"),
                     extractJsonString(responseBody, "name"),
+                    extractJsonString(responseBody, "first_name"),
+                    extractJsonString(responseBody, "last_name"),
                     extractJsonString(responseBody, "organization"),
                     extractJsonString(responseBody, "title"),
                     extractJsonString(responseBody, "issued_at"),
@@ -124,7 +126,7 @@ public class HttpInteropHubClient implements InteropHubClient {
                     -1,
                     "",
                     e.getClass().getSimpleName() + ": " + e.getMessage(),
-                    new HubUserInfo("", "", "", "", "", "", ""),
+                    new HubUserInfo("", "", "", "", "", "", "", "", ""),
                     "",
                     "");
         } finally {
